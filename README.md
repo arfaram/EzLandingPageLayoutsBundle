@@ -1,14 +1,14 @@
 # EzLandigPageLayoutsBundle
  
 This bundle will add some layouts (see screenshot in doc folder) to the standard Landingpage. Each of this layouts is using one or more zones. The content of the landingpage will be added later as blocks in the different zones.
- 
- ## Prerequisites
+
+## Prerequisites
  * **eZ Platform Enterprise Edition (clean installation)**
  * bootstrap framework   (you have to change the layouts template if you are using other framework)
  
  Tested with Ez Platform Enterprise Edition 1.7.0 LTS (clean installation)
  
- ## Features
+## Features
  * New Layouts in clean eZ Platform Enterprise Edition installation to select during creating new landingpages
  * Quickly re-use this out-of-the-box bundle in different projects
  * Using the same logic to add new layouts
