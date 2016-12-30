@@ -1,0 +1,3 @@
+landig_page_layouts_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: EzLandigPageLayoutsBundle:Default:index }

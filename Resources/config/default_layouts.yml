@@ -1,0 +1,67 @@
+layouts:
+    1:
+        identifier: 1
+        name: 1 Zone, 1 Column
+        description: One zone in one column
+        thumbnail: /bundles/ezlandigpagelayouts/images/layouts/1.png
+        template: EzLandigPageLayoutsBundle:layouts:1.html.twig
+        zones:
+            first:
+                name: First zone
+    1_2:
+        identifier: 1_2
+        name: 2 Zone, 2 Column
+        description: Two zones in columns, narrow left, wide right
+        thumbnail: /bundles/ezlandigpagelayouts/images/layouts/1_2.png
+        template: EzLandigPageLayoutsBundle:layouts:1_2.html.twig
+        zones:
+            first:
+                name: First zone
+            second:
+                name: Second zone
+    1_2__1:
+        identifier: 1_2__1
+        name: 3 Zone-, 2+1 Column
+        description: Three zones, two columns, narrow left, wide right in first row and one row
+        thumbnail: /bundles/ezlandigpagelayouts/images/layouts/1_2__1.png
+        template: EzLandigPageLayoutsBundle:layouts:1_2__1.html.twig
+        zones:
+            first:
+                name: First zone
+            second:
+                name: Second zone
+            third:
+                name: Third zone
+
+    2_1:
+        identifier: 2_1
+        name: 2 Zone, 2 Column
+        description: Two zones in columns, wide left, narrow right
+        thumbnail: /bundles/ezlandigpagelayouts/images/layouts/2_1.png
+        template: EzLandigPageLayoutsBundle:layouts:2_1.html.twig
+        zones:
+            first:
+                name: First zone
+            second:
+                name: Second zone
+
+    2_1__1:
+        identifier: 2_1__1
+        name: 3 Zone, 2+1 Column
+        description: Three zones, two columns, wide left, narrow right in first row and one row
+        thumbnail: /bundles/ezlandigpagelayouts/images/layouts/2_1__1.png
+        template: EzLandigPageLayoutsBundle:layouts:2_1__1.html.twig
+        zones:
+            first:
+                name: First zone
+            second:
+                name: Second zone
+            third:
+                name: Third zone
+#ez_systems_landing_page_field_type:
+    #blocks:
+        #banner:
+            #views:
+                #banner:
+                    #template: blocks/banner.html.twig
+                    #name: banner override studio template

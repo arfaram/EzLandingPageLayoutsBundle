@@ -1,0 +1,14 @@
+{% extends "AppBundle::pagelayout.html.twig" %}
+
+
+{% block content %}
+
+<h1>{{ ez_content_name(content) }}</h1>
+
+
+    {{ ez_render_field(content, 'page', {
+        'attr': {
+            'class': 'landing-page--dynamic landing-page'
+        }
+    }) }}
+{% endblock %}
