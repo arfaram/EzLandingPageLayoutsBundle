@@ -49,3 +49,6 @@ Clear cache (production add : --env=prod)
 ```
 php app/console cache:clear
 ```
+
+## Screenshots
+Inside the doc folder in this bundle
