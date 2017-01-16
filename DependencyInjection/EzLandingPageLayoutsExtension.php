@@ -1,6 +1,6 @@
 <?php
 
-namespace EzLandigPageLayoutsBundle\DependencyInjection;
+namespace EzLandingPageLayoutsBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -16,7 +16,7 @@ use Symfony\Component\Yaml\Yaml;
  *
  * To learn more see {@link http://symfony.com/doc/current/cookbook/bundles/extension.html}
  */
-class EzLandigPageLayoutsExtension extends Extension implements PrependExtensionInterface
+class EzLandingPageLayoutsExtension extends Extension implements PrependExtensionInterface
 {
     /**
      * {@inheritdoc}
@@ -46,7 +46,7 @@ class EzLandigPageLayoutsExtension extends Extension implements PrependExtension
          $container->prependExtensionConfig( 'ezpublish', $config );
 
          //Add to config to allow read access
-         $container->prependExtensionConfig( 'assetic', array( 'bundles' => array( 'EzLandigPageLayoutsBundle' ) ) );
+         $container->prependExtensionConfig( 'assetic', array( 'bundles' => array( 'EzLandingPageLayoutsBundle' ) ) );
 
      }
 

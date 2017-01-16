@@ -1,4 +1,4 @@
-# EzLandigPageLayoutsBundle
+# EzLandingPageLayoutsBundle
  
 This bundle will add some layouts (see screenshot in doc folder) to the standard Landingpage. Each of this layouts is using one or more zones. The content of the landingpage will be added later as blocks in the different zones.
 
@@ -27,7 +27,7 @@ Then add it to your application:
     {   
         $bundles = array(  
         // ...
-        new EzLandigPageLayoutsBundle\EzLandigPageLayoutsBundle(),
+        new EzLandingPageLayoutsBundle\EzLandingPageLayoutsBundle(),
         // ...
     );
 }
@@ -36,7 +36,7 @@ Then add it to your application:
 
 The landing_page full template is located in:
 ```
-    src/EzLandigPageLayoutsBundle/Resources/views/full/landing_page.html.twig
+    src/EzLandingPageLayoutsBundle/Resources/views/full/landing_page.html.twig
 ```
 Change the first line with your root or base Template location. More on how to create root Template can be found here [Content rendering configuration](https://doc.ez.no/display/DEVELOPER/Step+3+-+Customizing+the+general+layout)
 

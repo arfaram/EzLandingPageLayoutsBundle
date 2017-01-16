@@ -3,6 +3,6 @@ system:
         content_view:
             full:
                 landing_page:
-                    template: "EzLandigPageLayoutsBundle:full:landing_page.html.twig"
+                    template: "EzLandingPageLayoutsBundle:full:landing_page.html.twig"
                     match:
                         Identifier\ContentType: [landing_page]
