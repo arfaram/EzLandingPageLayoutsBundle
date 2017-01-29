@@ -58,10 +58,35 @@ layouts:
                 name: Second zone
             third:
                 name: Third zone
-#ez_systems_landing_page_field_type:
-    #blocks:
-        #banner:
-            #views:
-                #banner:
-                    #template: blocks/banner.html.twig
-                    #name: banner override studio template
+    12_84_12:
+        identifier: 12_84_12
+        name: 4 Zone, 12_84_12
+        description: Three zones, two columns, wide left, narrow right in first row and one row
+        thumbnail: /bundles/ezlandingpagelayouts/images/layouts/12_84_12.png
+        template: EzLandingPageLayoutsBundle:layouts:12_84_12.html.twig
+        zones:
+            first:
+                name: First zone
+            second:
+                name: Second zone
+            third:
+                name: Third zone
+            fourth:
+                name: Fourth zone
+blocks:
+    banner:
+        views:
+            banner:
+                template: blocks/banner.html.twig
+                name: banner override studio template
+            default:
+                template: blocks/banner.html.twig
+                name: banner override studio template
+    contentlist:
+        views:
+            contentList:
+                template: blocks/contentlist.html.twig
+                name: Content List
+            default:
+                template: blocks/contentlist.html.twig
+                name: Content List
