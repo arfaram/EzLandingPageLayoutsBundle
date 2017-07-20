@@ -73,20 +73,3 @@ layouts:
                 name: Third zone
             fourth:
                 name: Fourth zone
-blocks:
-    banner:
-        views:
-            banner:
-                template: blocks/banner.html.twig
-                name: banner override studio template
-            default:
-                template: blocks/banner.html.twig
-                name: banner override studio template
-    contentlist:
-        views:
-            contentList:
-                template: blocks/contentlist.html.twig
-                name: Content List
-            default:
-                template: blocks/contentlist.html.twig
-                name: Content List
